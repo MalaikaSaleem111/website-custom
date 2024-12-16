@@ -1,0 +1,86 @@
+.container {
+    background-color: #e0f7fa; /* bg-sky-100 */
+    min-height: 100vh;
+    padding: 32px 40px;
+  }
+  
+  .title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    background-color: #e0f7fa; /* bg-sky-100 */
+    margin-top: 24px;
+  }
+  
+  .image {
+    height: 160px; /* h-40 */
+    width: 240px; /* w-60 */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 24px;
+  }
+  
+  .button {
+    width: 160px; /* w-40 */
+    height: 48px; /* h-12 */
+    background-color: #1e3a8a; /* bg-blue-900 */
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .button-white {
+    width: 192px; /* w-48 */
+    height: 48px; /* h-12 */
+    background-color: white;
+    color: #1e40af; /* text-blue-800 */
+    border: 2px solid #1e40af; /* border-blue-800 */
+    border-radius: 8px;
+  }
+  
+  .description-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 32px;
+  }
+  
+  .description {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  
+  .price {
+    text-align: center;
+    font-weight: bold;
+    color: #16a34a; /* text-green-600 */
+    margin-top: 24px;
+    font-size: 18px;
+  }
+  
+  .payment-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+  }
+  
+  .payment-button {
+    width: 160px; /* w-40 */
+    height: 48px; /* h-12 */
+    background-color: #1e3a8a; /* bg-blue-900 */
+    color: white;
+    border-radius: 8px;
+  }
+  

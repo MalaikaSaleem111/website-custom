@@ -1,0 +1,39 @@
+.form-container {
+    height: 384px; /* h-96 */
+    background-color: white;
+    margin-top: 40px; /* my-10 */
+    margin-bottom: 40px;
+  }
+  
+  .form-title {
+    font-size: 40px; /* text-5xl */
+    font-weight: 600; /* font-semibold */
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .form {
+    margin-top: 40px; /* mt-10 */
+    display: flex;
+    gap: 20px; /* gap-5 */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    padding: 8px; /* p-2 */
+    border-radius: 20px; /* rounded-2xl */
+    width: 40%; /* w-2/5 */
+    border: 2px solid #1e293b; /* border-slate-800 */
+  }
+  
+  .submit-button {
+    padding: 16px 32px; /* py-4 px-8 */
+    border-radius: 8px; /* rounded-lg */
+    background-color: #1e40af; /* bg-blue-800 */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

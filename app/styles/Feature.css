@@ -1,0 +1,141 @@
+/* Section container */
+.section {
+    width: 100%;
+    background-color: #e5e7eb; /* bg-gray-200 */
+    padding: 20px 16px; /* Default padding (px-4) */
+  }
+  
+  @media (min-width: 640px) {
+    .section {
+      padding-left: 40px; /* sm:px-10 */
+      padding-right: 40px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .section {
+      padding-left: 40px; /* lg:px-20 */
+      padding-right: 40px;
+    }
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column; /* Default: flex-col */
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+  
+  @media (min-width: 640px) {
+    .flex-container {
+      flex-direction: row; /* sm:flex-row */
+    }
+  }
+
+  .heading {
+    font-weight: bold; /* font-bold */
+    font-size: 20px; /* text-xl */
+    text-align: center;
+  }
+  
+  @media (min-width: 640px) {
+    .heading {
+      text-align: left; /* sm:text-left */
+    }
+  }
+  
+  .subheading {
+    color: #2563eb; /* text-blue-600 */
+    margin-top: 8px; /* mt-2 */
+  }
+  
+  @media (min-width: 640px) {
+    .subheading {
+      margin-top: 0; /* sm:mt-0 */
+    }
+  }
+  
+  /* Category buttons */
+  .category-buttons {
+    display: flex;
+    justify-content: flex-start;
+    padding: 24px 0; /* py-6 */
+    font-size: 16px; /* text-lg */
+    gap: 16px; /* sm:gap-10 */
+    overflow-x: auto;
+  }
+  
+  .category-buttons h2 {
+    white-space: nowrap; /* whitespace-nowrap */
+  }
+  
+  
+  /* Flex container for car cards */
+  .car-cards {
+    display: flex;
+    flex-direction: column; /* Default: vertical stacking (1 car per row on small screens) */
+    gap: 16px; /* gap-4 */
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px; /* py-6 */
+  }
+  
+  @media (min-width: 640px) {
+    .car-cards {
+      flex-direction: row; /* sm:flex-row: row layout */
+      justify-content: center; /* Center the items */
+      flex-wrap: wrap; /* Allow wrapping when items exceed screen width */
+      gap: 20px; /* Increase gap for larger screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .car-cards {
+      flex-direction: row; /* Keep row layout on large screens */
+      justify-content: flex-start; /* Align items to the left */
+      gap: 20px; /* Ensure space between items */
+    }
+  }
+  
+  /* Individual car card styling */
+  .car-card {
+    background-color: white;
+    border-radius: 8px; /* rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    padding: 16px; /* p-4 */
+    width: 100%; /* Default: 1 car per row on small screens (100% width) */
+  }
+  
+  @media (min-width: 640px) {
+    .car-card {
+      width: 100%; /* sm: 1 car per row */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .car-card {
+      width:auto 
+    }
+  }
+  
+  .car-card img {
+    height: 192px; /* h-48 */
+    width: 100%; /* w-full */
+    object-fit: cover; /* object-cover */
+    border-radius: 8px; /* rounded-md */
+  }
+  
+  .car-card h3 {
+    color: #1e3a8a; /* text-blue-950 */
+    font-weight: bold; /* font-bold */
+    text-align: center;
+    margin-top: 8px; /* mt-2 */
+  }
+  
+  .car-card p {
+    color: #16a34a; /* text-green-500 */
+    text-align: center;
+  }
+  
+ 
+  

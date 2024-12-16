@@ -1,0 +1,19 @@
+.thankyou-container {
+    width: 100%; /* w-full */
+    height: 384px; /* h-96 */
+    background-color: white;
+    text-align: center;
+    padding-top: 128px; /* pt-32 */
+  }
+  
+  .thankyou-title {
+    color: #3b82f6; /* text-blue-500 */
+    font-size: 48px; /* text-6xl */
+    padding-bottom: 40px; /* pb-10 */
+    font-weight: 700; /* font-bold */
+  }
+  
+  .thankyou-message {
+    font-size: 16px; /* You can adjust font size here */
+  }
+  

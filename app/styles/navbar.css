@@ -1,0 +1,126 @@
+/* Navbar container */
+.navbar {
+    width: 100%;
+    background-color: black;
+    padding: 8px 16px; /* px-4 sm:px-10 py-2 */
+    color: white;
+  }
+  
+  /* Top Section */
+  .navbar-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px; /* text-sm */
+  }
+  
+  .navbar-top-left {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .navbar-top-right {
+    display: flex;
+    gap: 16px; /* space-x-4 */
+    margin-top: 8px;
+  }
+  
+  .navbar-link {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .navbar-link:hover {
+    color: #d1d5db; /* hover:text-gray-300 */
+  }
+  
+  /* Divider */
+  .navbar-divider {
+    border-top: 2px solid #4b5563; /* border-gray-600 */
+    margin: 16px 0;
+  }
+  
+  /* Bottom Section */
+  .navbar-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navbar-logo img {
+    width: 144px; /* w-36 */
+    height: 64px; /* h-16 */
+    object-fit: contain;
+  }
+  
+  /* Navigation Links */
+  .navbar-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px; /* lg:gap-6 */
+    padding-top: 16px;
+  }
+  
+  .navbar-button {
+    background-color: #be185d; /* bg-rose-800 */
+    color: white;
+    border-radius: 24px; /* rounded-2xl */
+    padding: 8px 16px; /* px-4 py-2 */
+    width: 100%;
+    max-width: 144px; /* sm:w-36 */
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-button:hover {
+    background-color: #9f1239; /* hover:bg-rose-700 */
+  }
+  
+  /* Media Queries */
+  @media (min-width: 640px) {
+    .navbar-top {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .navbar-top-right {
+      margin-top: 0;
+    }
+  
+    .navbar-bottom {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .navbar-links {
+      justify-content: space-evenly;
+    }
+  
+    .navbar-cta {
+      padding-top: 0;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .navbar-top {
+      justify-content: flex-start;
+    }
+  
+    .navbar-logo {
+      margin-right: 32px; /* lg:gap-8 */
+    }
+  
+    .navbar-links {
+      justify-content: space-evenly;
+      gap: 24px;
+    }
+  
+    .navbar-button {
+      width: auto;
+      max-width: none;
+    }
+  }
+  
