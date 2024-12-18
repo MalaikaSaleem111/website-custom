@@ -1,5 +1,5 @@
 .container {
-    background-color: #e0f7fa; /* bg-sky-100 */
+    background-color: white; /* bg-sky-100 */
     min-height: 100vh;
     padding: 32px 40px;
   }
@@ -13,13 +13,13 @@
   .image-container {
     display: flex;
     justify-content: center;
-    background-color: #e0f7fa; /* bg-sky-100 */
+    background-color: white; /* bg-sky-100 */
     margin-top: 24px;
   }
   
   .image {
-    height: 160px; /* h-40 */
-    width: 240px; /* w-60 */
+    height: 260px; /* h-40 */
+    width: 340px; /* w-60 */
     object-fit: cover;
     border-radius: 8px;
   }

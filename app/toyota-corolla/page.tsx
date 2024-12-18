@@ -1,5 +1,6 @@
 import Link from "next/link"
 import "../styles/car.css"
+import Image from "next/image";
 
 export default function Toyota_Corolla() {
   return (
@@ -11,10 +12,12 @@ export default function Toyota_Corolla() {
 
       {/* Image Section */}
       <div className="image-container">
-        <img
-          src="https://di-uploads-pod25.dealerinspire.com/edmarktoyota/uploads/2024/02/2024-toyota-corolla-banner.jpg"
+        <Image
+          src="/Toyota-Corolla.jpg"
           className="image"
           alt="Toyota Corolla 2024"
+          width={240}
+          height={160}
         />
       </div>
 

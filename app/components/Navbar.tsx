@@ -1,4 +1,5 @@
 import "../styles/navbar.css"
+import Image from "next/image";
 export default function Navbar() {
     return (
       <nav className="navbar">
@@ -20,9 +21,11 @@ export default function Navbar() {
   <div className="navbar-bottom">
     {/* Logo */}
     <div className="navbar-logo">
-      <img
-        src="https://static.pakwheels.com/2016/06/pw-logo.png"
+      <Image
+        src="/pw-logo.png"
         alt="pakwheels logo"
+        width={144}
+        height={64}
       />
     </div>
 

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import "../styles/car.css"
+import Image from "next/image"
 export default function Honda_Civic(){
 
   return(
@@ -9,7 +10,7 @@ export default function Honda_Civic(){
       </h1>
     
       <div className="image-container">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFK02fMsa8rDAkoAn1L0OXSXMsKjCNrlS3pw&s" className="image"></img>
+       <Image src="/Honda-Civic.jpg" className="image" alt="honda civic" width={240} height={160} />
       </div> 
 
            {/* Buttons Section */}

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import "../styles/car.css"
+import Image from "next/image";
 
 
 export default function HondaCity() {
@@ -12,10 +13,12 @@ export default function HondaCity() {
 
       {/* Image Section */}
       <div className="image-container">
-        <img
-          src="https://i0.wp.com/bestsellingcarsblog.com/wp-content/uploads/2022/05/Honda-City-Vietnam-April-2022.jpg?resize=600%2C400"
+        <Image
+          src="/Honda_City.jpg"
           className="image"
           alt="Honda City 2024"
+          width={240}
+          height={160}
         />
       </div>
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import"../styles/Feature.css"
+import Image from 'next/image';
 
 const Feature = () => {
   return (
@@ -19,9 +20,11 @@ const Feature = () => {
     <div className="car-cards">
       <div className="car-card">
         <Link href="/toyota-corolla">
-          <img
-            src="https://cache1.pakwheels.com/system/car_generation_pictures/5361/medium/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg?1606903674"
+          <Image
+            src="/Toyota-Corolla.jpg"
             alt="Toyota Corolla"
+            width={200}
+            height={192}
           />
           <h3>Toyota Corolla</h3>
           <p>PKR 59.7 - 75.5 lacs</p>
@@ -30,9 +33,11 @@ const Feature = () => {
   
       <div className="car-card">
         <Link href="/suzuki_alto">
-          <img
-            src="https://cache4.pakwheels.com/system/car_generation_pictures/6013/medium/Suzuki_Alto_-_PNG.png?1635945100"
+          <Image
+            src="/Suzuki_Alto.png"
             alt="Suzuki Alto"
+            width={200}
+            height={192}
           />
           <h3>Suzuki Alto</h3>
           <p>PKR 23.3 - 30.5 lacs</p>
@@ -42,8 +47,10 @@ const Feature = () => {
       <div className="car-card">
         <Link href="/honda_city">
           <img
-            src="https://cache1.pakwheels.com/system/car_generation_pictures/6425/medium/Honda_City_Front.jpg?1651424945"
+            src="/Honda_City.jpg"
             alt="Honda City"
+            width={200}
+            height={192}
           />
           <h3>Honda City</h3>
           <p>PKR 46.5 - 58.5 lacs</p>
@@ -53,8 +60,10 @@ const Feature = () => {
       <div className="car-card">
         <Link href="/honda_civic">
           <img
-            src="https://cache4.pakwheels.com/system/car_generation_pictures/7370/medium/Cover.jpg?1677570254"
+            src="/Honda-Civic.jpg"
             alt="Honda Civic"
+            width={200}
+            height={192}
           />
           <h3>Honda Civic</h3>
           <p>PKR 86.6 - 99.0 lacs</p>

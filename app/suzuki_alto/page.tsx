@@ -1,5 +1,6 @@
 import Link from "next/link"
 import "../styles/car.css"
+import Image from "next/image";
 export default function Suzuki_Alto(){
     return (
       <div className="container">
@@ -10,10 +11,12 @@ export default function Suzuki_Alto(){
   
         {/* Image Section */}
         <div className="image-container">
-          <img
-            src="https://media.licdn.com/dms/image/v2/D4D12AQEr5JRcTtzWVg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1712558027267?e=2147483647&v=beta&t=HDQM6AqzsfAdGSCCOIQ3z0bgLn6voI2pdxGwvhpxbH4"
+          <Image
+            src="/Suzuki_Alto.png"
             className="image"
             alt="Suzuki Alto 2024"
+            width={240}
+            height={160}
           />
         </div>
   
